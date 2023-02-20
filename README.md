@@ -6,12 +6,12 @@
 A factorial is the product of all positive integers less than or equal to n, if the integer is represented by n (numbers with no decimal or fractional part = integers).
 For example: 5! = 5 * 4 * 3 * 2 * 1
 The pattern would be:
-0! = 1
-1! = 1
-2! = 2 * 1
-3! = 3 * 2 * 1
-4! = 4 * 3 * 2 * 1
-5! = 5 * 4 * 3 * 2 * 1
+- 0! = 1
+- 1! = 1
+- 2! = 2 * 1
+- 3! = 3 * 2 * 1
+- 4! = 4 * 3 * 2 * 1
+- 5! = 5 * 4 * 3 * 2 * 1
 
 ## Test Last - What is it?
 A development process that entails executing unit tests after the development of the corresponding units is finished. This ensures that the responsibilities of each software unit are well understood before the unit testing is done.
