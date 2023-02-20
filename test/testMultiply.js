@@ -9,4 +9,8 @@ describe('Test our multiply function', () => {
   it('2 multiplied by 2 == 4', () => {
     assert.equal(multiply(2, 2), 4);
   });
+
+  it('3 multiplied by 3 == 9', () => {
+    assert.equal(multiply(3, 3), 9);
+  });
 });
