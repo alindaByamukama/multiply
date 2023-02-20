@@ -7,7 +7,9 @@ function factorialize(num) {
     return 1;
   }
 
-  // this is the while loop
+  // this is the while loop that decrement the integer by 1
+  // and multiplies the decrement with the result variable
+
   while (num > 1) {
     let whileNum = num;
     whileNum -= 1;
