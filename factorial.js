@@ -11,12 +11,16 @@ function factorialize(num) {
   // and multiplies the decrement with the result variable
 
   while (num > 1) {
-    let whileNum = num;
-    whileNum -= 1;
-    result *= whileNum;
+    // there is an error here that causes problems in the solution if 'fixed' according to eslint
+    num -= 1;
+    result *= num;
   }
 
+  // returns the factorial of the integer provided
   return result;
 }
+
+// console.log(factorialize(0));
+// console.log(factorialize(5));
 
 exports.factorialize = factorialize;
