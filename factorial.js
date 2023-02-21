@@ -7,11 +7,12 @@ const factorialize = (num) => {
     return 1;
   }
 
-  // this is the while loop that decrement the integer by 1
+  // this is the while loop that decrements the integer by 1
   // and multiplies the decrement with the result variable
+  // so long as the integer is greater than 1
 
   while (num > 1) {
-    // eslint no-param-reassign: "error"
+    // eslint no-param-reassign: "error" suggested solution does not work =\
     num -= 1;
     result *= num;
   }
