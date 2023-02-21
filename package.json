@@ -2,7 +2,7 @@
   "name": "multiply",
   "version": "1.0.0",
   "description": "tdd task multiply",
-  "main": "multiply.js",
+  "main": "factorial.js",
   "type": "commonjs",
   "scripts": {
     "test": "mocha",
