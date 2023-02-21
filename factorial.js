@@ -1,4 +1,4 @@
-function factorialize(num) {
+const factorialize = (num) => {
   // create a variable result to store num
   let result = num;
 
@@ -11,16 +11,19 @@ function factorialize(num) {
   // and multiplies the decrement with the result variable
 
   while (num > 1) {
-    // there is an error here that causes problems in the solution if 'fixed' according to eslint
+    // eslint no-param-reassign: "error"
     num -= 1;
     result *= num;
   }
 
   // returns the factorial of the integer provided
   return result;
-}
+};
 
+// returns 1
 // console.log(factorialize(0));
+// console.log(factorialize(1));
+// returns 120
 // console.log(factorialize(5));
 
 exports.factorialize = factorialize;
